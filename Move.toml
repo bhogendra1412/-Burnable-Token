@@ -1,0 +1,14 @@
+[package]
+name = "burnable_tokens"
+version = "1.0.0"
+
+[addresses]
+bhogendra_addrs="0xb3778f4d8fb5fa7dcbd8fe7a9aed5cebe2bb7abac97b8defbc1fad77b99b8cf4"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
